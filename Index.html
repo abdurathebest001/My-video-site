@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Player</title>
+</head>
+<body>
+  <h1>Multimedia Player</h1>
+
+  <section>
+    <h2>Now Playing: SoundHelix Song 1</h2>
+    <audio controls aria-label="Sound of a relaxing ocean wave">
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+  </section>
+
+  <section>
+    <h2>What Role Does HTML Play on the Web?</h2>
+    <video controls width="600" aria-label="Video about what HTML does on the web">
+      <source src="myvideo.mp4" type="video/mp4">
+      <track 
+        src="myvideo-subtitles.vtt" 
+        kind="subtitles" 
+        srclang="en" 
+        label="English">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <section>
+    <h2>Transcript</h2>
+    <p>What Role Does HTML Play on the Web?</p>
+
+    <p>HTML, which stands for Hypertext Markup Language, is a markup language for creating web pages. When you visit a website and see content like paragraphs, headings, links, images, and videos; that's HTML. HTML represents the content and structure of a webpage through the use of elements.</p>
+
+    <p>Here's an example of a paragraph element:</p>
+    &lt;p&gt;Hello&lt;/p&gt;
+
+    <p>Most elements will have an opening tag and a closing tag. In between those two tags, you will have the content. This content can be text or other HTML elements.</p>
+
+    <p>Some elements, like images, are void and don’t have closing tags:</p>
+    &lt;img src="example.jpg" alt="Example Image"&gt;
+
+    <p>HTML provides structure, CSS handles style, and JavaScript adds interactivity.</p>
+  </section>
+</body>
+</html>
